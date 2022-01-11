@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.1022
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlabRS232", "AirlabRS232\AirlabRS232.csproj", "{871A8C96-65B1-4173-B20C-D90460EE1A04}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Airlab-RS232", "Airlab-RS232\Airlab-RS232.vdproj", "{41B01260-271D-450B-A59F-D0C71A454F92}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Airlab-RS232", "Airlab-RS232-Installer\Airlab-RS232.vdproj", "{41B01260-271D-450B-A59F-D0C71A454F92}"
 EndProject
 Global
 	GlobalSection(Performance) = preSolution
