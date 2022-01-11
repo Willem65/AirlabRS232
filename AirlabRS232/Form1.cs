@@ -235,7 +235,7 @@ namespace AirlabRS232
                 if (positie == berichtLengte)             // Kijk of de lengte gehaald is, en print de bufferinhoud dan pas uit
                 {
                     string bufferCopy = string.Copy(bufferInhoud);                          // Kopie in C# is wel of niet nodig,  geen idee ?
-                    textBoxMessages.Invoke(new DelegateAanroep(AnalyseData), bufferCopy);   // De uiteindelijke string 
+                    textBoxMessages.Invoke(new DelegateAanroep(AnalyseData), bufferCopy);   // De uiteindelijke string verkregen
                 }
             }
         }
