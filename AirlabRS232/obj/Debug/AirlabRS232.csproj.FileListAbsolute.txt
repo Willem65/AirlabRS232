@@ -1,0 +1,51 @@
+C:\Users\willem\Downloads\CSharpEgitim-master\CSharpEgitim-master\SeriPortProgrami\SeriPortProgrami\bin\Debug\AirlabRS232.exe.config
+C:\Users\willem\Downloads\CSharpEgitim-master\CSharpEgitim-master\SeriPortProgrami\SeriPortProgrami\bin\Debug\AirlabRS232.exe
+C:\Users\willem\Downloads\CSharpEgitim-master\CSharpEgitim-master\SeriPortProgrami\SeriPortProgrami\bin\Debug\AirlabRS232.pdb
+C:\Users\willem\Downloads\CSharpEgitim-master\CSharpEgitim-master\SeriPortProgrami\SeriPortProgrami\obj\Debug\SeriPortProgrami.Form1.resources
+C:\Users\willem\Downloads\CSharpEgitim-master\CSharpEgitim-master\SeriPortProgrami\SeriPortProgrami\obj\Debug\AirlabRS232.Properties.Resources.resources
+C:\Users\willem\Downloads\CSharpEgitim-master\CSharpEgitim-master\SeriPortProgrami\SeriPortProgrami\obj\Debug\AirlabRS232.csproj.GenerateResource.cache
+C:\Users\willem\Downloads\CSharpEgitim-master\CSharpEgitim-master\SeriPortProgrami\SeriPortProgrami\obj\Debug\AirlabRS232.csproj.CoreCompileInputs.cache
+C:\Users\willem\Downloads\CSharpEgitim-master\CSharpEgitim-master\SeriPortProgrami\SeriPortProgrami\obj\Debug\AirlabRS232.exe
+C:\Users\willem\Downloads\CSharpEgitim-master\CSharpEgitim-master\SeriPortProgrami\SeriPortProgrami\obj\Debug\AirlabRS232.pdb
+C:\Users\willem\Downloads\CSharpEgitim-master\CSharpEgitim-master\SeriPortProgrami\SeriPortProgrami\bin\Debug\AirlabRS232.exe.CodeAnalysisLog.xml
+C:\Users\willem\Downloads\CSharpEgitim-master\CSharpEgitim-master\SeriPortProgrami\SeriPortProgrami\bin\Debug\AirlabRS232.exe.lastcodeanalysissucceeded
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\SeriPortProgrami\bin\Debug\AirlabRS232.exe.config
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\SeriPortProgrami\bin\Debug\AirlabRS232.exe
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\SeriPortProgrami\bin\Debug\AirlabRS232.pdb
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\SeriPortProgrami\obj\Debug\AirlabRS232.csprojAssemblyReference.cache
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\SeriPortProgrami\obj\Debug\SeriPortProgrami.Form1.resources
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\SeriPortProgrami\obj\Debug\AirlabRS232.Properties.Resources.resources
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\SeriPortProgrami\obj\Debug\AirlabRS232.csproj.GenerateResource.cache
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\SeriPortProgrami\obj\Debug\AirlabRS232.csproj.CoreCompileInputs.cache
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\SeriPortProgrami\obj\Debug\AirlabRS232.exe
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\SeriPortProgrami\obj\Debug\AirlabRS232.pdb
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - Werner\AirlabRS232\bin\Debug\AirlabRS232.exe.config
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - Werner\AirlabRS232\bin\Debug\AirlabRS232.exe
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - Werner\AirlabRS232\bin\Debug\AirlabRS232.pdb
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - Werner\AirlabRS232\obj\Debug\AirlabRS232.Form1.resources
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - Werner\AirlabRS232\obj\Debug\AirlabRS232.Properties.Resources.resources
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - Werner\AirlabRS232\obj\Debug\AirlabRS232.csproj.GenerateResource.cache
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - Werner\AirlabRS232\obj\Debug\AirlabRS232.csproj.CoreCompileInputs.cache
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - Werner\AirlabRS232\obj\Debug\AirlabRS232.exe
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - Werner\AirlabRS232\obj\Debug\AirlabRS232.pdb
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - Werner\AirlabRS232\obj\Debug\AirlabRS232.csprojAssemblyReference.cache
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - kopie (5)\AirlabRS232\obj\Debug\AirlabRS232.csprojAssemblyReference.cache
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - kopie (5)\AirlabRS232\obj\Debug\AirlabRS232.Form1.resources
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - kopie (5)\AirlabRS232\obj\Debug\AirlabRS232.Properties.Resources.resources
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - kopie (5)\AirlabRS232\obj\Debug\AirlabRS232.csproj.GenerateResource.cache
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - kopie (5)\AirlabRS232\obj\Debug\AirlabRS232.csproj.CoreCompileInputs.cache
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - kopie (5)\AirlabRS232\obj\Debug\AirlabRS232.exe
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - kopie (5)\AirlabRS232\obj\Debug\AirlabRS232.pdb
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - kopie (5)\AirlabRS232\bin\Debug\AirlabRS232.exe.config
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - kopie (5)\AirlabRS232\bin\Debug\AirlabRS232.exe
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232 - kopie (5)\AirlabRS232\bin\Debug\AirlabRS232.pdb
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\AirlabRS232\bin\Debug\AirlabRS232.exe.config
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\AirlabRS232\bin\Debug\AirlabRS232.exe
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\AirlabRS232\bin\Debug\AirlabRS232.pdb
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\AirlabRS232\obj\Debug\AirlabRS232.csprojAssemblyReference.cache
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\AirlabRS232\obj\Debug\AirlabRS232.Form1.resources
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\AirlabRS232\obj\Debug\AirlabRS232.Properties.Resources.resources
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\AirlabRS232\obj\Debug\AirlabRS232.csproj.GenerateResource.cache
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\AirlabRS232\obj\Debug\AirlabRS232.csproj.CoreCompileInputs.cache
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\AirlabRS232\obj\Debug\AirlabRS232.exe
+C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\AirlabRS232\obj\Debug\AirlabRS232.pdb

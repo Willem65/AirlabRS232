@@ -1,0 +1,59 @@
+80 ON           
+
+81 CUE                                   
+
+82 START                                 
+
+83 STOP                                  
+
+84 ONAIR1                                
+
+85 ONAIR2                                
+
+90 TIMER_START                                  
+
+91 TIMER_STOP                                   
+
+92 TIMER_RESET                                  
+
+93 MODULESETUPDATA                       
+
+94 MASTERSETUPDATA                       
+
+95 SERIAL_CONFIG                                
+
+96 STORE_EEPROM                                 
+
+97 STORE_SMARTCARD                              
+
+98 CARD_INSERTED                                
+
+9A SERIAL_IDSTRING                              
+
+B3 GETSERIAL_MODULESETUPDATA                    
+
+B4 GETSERIAL_MASTERSETUPDATA                    
+
+B5 GETSERIAL_CONFIG                             
+
+B8 GETCARD_INSERTED                             
+
+BA GETSERIAL_IDSTRING                           
+
+C0 TODIRECTOR_TELCO_CONNECT                     
+
+C1 TODIRECTOR_TELCO_RING                        
+
+C2 TODIRECTOR_TELCO_CUE                         
+
+C3 TODIRECTOR_TELCO_MUTE                        
+
+D0 TODIRECTOR_FUNCTION                          
+
+E0 FROMDIRECTOR_TELCO_ON_CONNECT                
+
+E1 FROMDIRECTOR_TELCO_MUTE                      
+
+E2 FROMDIRECTOR_TELCO_TB                        
+
+F0 FROMDIRECTOR_TB                              
