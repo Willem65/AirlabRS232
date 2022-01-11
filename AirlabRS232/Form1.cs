@@ -28,7 +28,7 @@ namespace AirlabRS232
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.Manual;
-            this.Location = new Point(2000, 50);
+            this.Location = new Point(200, 50);
         }
 
         // Tijdens het laden van het Form de nodige dingen vooraf instellen
