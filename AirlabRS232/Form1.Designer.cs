@@ -37,7 +37,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBoxClearMsgBox = new System.Windows.Forms.CheckBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label7 = new System.Windows.Forms.Label();
             this.checkBoxTimerLineA = new System.Windows.Forms.CheckBox();
@@ -238,14 +238,14 @@
             this.label6.TabIndex = 12;
             this.label6.Text = "Comport";
             // 
-            // checkBox1
+            // checkBoxClearMsgBox
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(810, 47);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 13;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBoxClearMsgBox.AutoSize = true;
+            this.checkBoxClearMsgBox.Location = new System.Drawing.Point(810, 47);
+            this.checkBoxClearMsgBox.Name = "checkBoxClearMsgBox";
+            this.checkBoxClearMsgBox.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxClearMsgBox.TabIndex = 13;
+            this.checkBoxClearMsgBox.UseVisualStyleBackColor = true;
             // 
             // timer1
             // 
@@ -910,7 +910,7 @@
             this.Controls.Add(this.groupBoxMaster);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.checkBoxClearMsgBox);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -955,7 +955,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBoxClearMsgBox;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.CheckBox checkBoxTimerLineA;

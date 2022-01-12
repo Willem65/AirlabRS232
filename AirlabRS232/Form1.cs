@@ -34,7 +34,7 @@ namespace AirlabRS232
         // Tijdens het laden van het Form de nodige dingen vooraf instellen
         private void Form1_Load(object sender, EventArgs e)
         {
-            checkBox1.Checked = false;
+            checkBoxClearMsgBox.Checked = false;
             buttonSend.Enabled = false;
             buttonStartTimer.Enabled = false;
             buttonStopTimer.Enabled = false;

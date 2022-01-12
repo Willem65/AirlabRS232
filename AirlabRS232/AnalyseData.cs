@@ -13,7 +13,7 @@ namespace AirlabRS232
         //-------------------------------------- textBoxMessages, geef de dedata in tekst weer -----------------------------------------------------------
         private void AnalyseData(string text)
         {
-            if (checkBox1.Checked)
+            if (checkBoxClearMsgBox.Checked)
                 textBoxMessages.Clear();
 
             hexStr = text;
