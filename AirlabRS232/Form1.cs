@@ -272,7 +272,7 @@ namespace AirlabRS232
         //private void serialPort1_DataReceived(object sender, SerialDataReceivedEventArgs e)
         //{
 
-        //    Thread.Sleep(25);
+        //    Thread.Sleep(40);
         //    bufferInhoud = "";
 
 
@@ -308,9 +308,9 @@ namespace AirlabRS232
         //private void serialPort1_DataReceived(object sender, SerialDataReceivedEventArgs e)
         //{
 
-        //    Thread.Sleep(25);
+        //    Thread.Sleep(40);
         //    int hoeveelheidBytes = serialPort1.BytesToRead;
-        //    int nbrDataRead = serialPort1.Read(serialBuffer, 0, hoeveelheidBytes);
+        //    int nbrDataRead = serialPort1.Read(serialBuffer, hoeveelheidBytesTemp, hoeveelheidBytes);
         //    hoeveelheidBytesTemp += hoeveelheidBytes;
 
 
@@ -319,6 +319,7 @@ namespace AirlabRS232
         //        bufferInhoud = bufferInhoud + serialBuffer[index].ToString("X2") + " ";
         //    }
 
+        //    hoeveelheidBytesTemp = 0;
         //    string msg = string.Copy(bufferInhoud);
         //    textBoxMessages.Invoke(new DelegateAanroep(AnalyseData), msg);
         //    Debug.WriteLine(bufferInhoud);
