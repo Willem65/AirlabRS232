@@ -50,34 +50,34 @@
             this.checkBoxStartOn = new System.Windows.Forms.CheckBox();
             this.checkBoxStartCue = new System.Windows.Forms.CheckBox();
             this.checkBoxStartPuls = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.checkBox23 = new System.Windows.Forms.CheckBox();
-            this.checkBox24 = new System.Windows.Forms.CheckBox();
-            this.checkBox25 = new System.Windows.Forms.CheckBox();
-            this.checkBox26 = new System.Windows.Forms.CheckBox();
-            this.checkBox27 = new System.Windows.Forms.CheckBox();
-            this.checkBox28 = new System.Windows.Forms.CheckBox();
-            this.checkBox29 = new System.Windows.Forms.CheckBox();
-            this.checkBox30 = new System.Windows.Forms.CheckBox();
+            this.checkBoxRemoteCueA = new System.Windows.Forms.CheckBox();
+            this.checkBoxRemoteCueB = new System.Windows.Forms.CheckBox();
+            this.checkBoxRemoteCueByMic = new System.Windows.Forms.CheckBox();
+            this.checkBoxDjMic = new System.Windows.Forms.CheckBox();
+            this.checkBoxAnnMic = new System.Windows.Forms.CheckBox();
+            this.checkBoxStudioMic = new System.Windows.Forms.CheckBox();
+            this.checkBoxOnair1ByA = new System.Windows.Forms.CheckBox();
+            this.checkBoxOnair1ByB = new System.Windows.Forms.CheckBox();
+            this.checkBoxOnAir1ByMic = new System.Windows.Forms.CheckBox();
+            this.checkBoxOnair2ByA = new System.Windows.Forms.CheckBox();
+            this.checkBoxOnair2ByB = new System.Windows.Forms.CheckBox();
+            this.checkBoxOnAir2ByMic = new System.Windows.Forms.CheckBox();
+            this.checkBoxModPowerOn = new System.Windows.Forms.CheckBox();
+            this.checkBoxMicLineA = new System.Windows.Forms.CheckBox();
+            this.checkBoxMicLineB = new System.Windows.Forms.CheckBox();
+            this.checkBoxRemoteByMic = new System.Windows.Forms.CheckBox();
+            this.checkBoxRemoteByA = new System.Windows.Forms.CheckBox();
+            this.checkBoxRemoteByB = new System.Windows.Forms.CheckBox();
+            this.checkBoxSwitchStart = new System.Windows.Forms.CheckBox();
             this.checkBoxAutoCueReset = new System.Windows.Forms.CheckBox();
             this.checkBoxCueToCrm = new System.Windows.Forms.CheckBox();
             this.checkBoxAutoCom = new System.Windows.Forms.CheckBox();
             this.checkBoxRS232 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.buttonStartTimer = new System.Windows.Forms.Button();
+            this.buttonStopTimer = new System.Windows.Forms.Button();
+            this.buttonResetTimer = new System.Windows.Forms.Button();
+            this.buttonSaveInternal = new System.Windows.Forms.Button();
+            this.buttonSaveChipCard = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBoxMaster = new System.Windows.Forms.GroupBox();
             this.checkBoxConsole = new System.Windows.Forms.CheckBox();
@@ -373,195 +373,214 @@
             this.checkBoxStartPuls.UseVisualStyleBackColor = true;
             this.checkBoxStartPuls.Click += new System.EventHandler(this.checkBoxStartPuls_Click);
             // 
-            // checkBox12
+            // checkBoxRemoteCueA
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(10, 260);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(15, 14);
-            this.checkBox12.TabIndex = 28;
-            this.checkBox12.UseVisualStyleBackColor = true;
-            this.checkBox12.Click += new System.EventHandler(this.checkBox12_Click);
+            this.checkBoxRemoteCueA.AutoSize = true;
+            this.checkBoxRemoteCueA.Location = new System.Drawing.Point(10, 260);
+            this.checkBoxRemoteCueA.Name = "checkBoxRemoteCueA";
+            this.checkBoxRemoteCueA.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxRemoteCueA.TabIndex = 28;
+            this.checkBoxRemoteCueA.Text = "Remote CUE enabled by Line A";
+            this.checkBoxRemoteCueA.UseVisualStyleBackColor = true;
+            this.checkBoxRemoteCueA.Click += new System.EventHandler(this.checkBoxRemoteCueA_Click);
             // 
-            // checkBox13
+            // checkBoxRemoteCueB
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(10, 283);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(15, 14);
-            this.checkBox13.TabIndex = 27;
-            this.checkBox13.UseVisualStyleBackColor = true;
-            this.checkBox13.Click += new System.EventHandler(this.checkBox13_Click);
+            this.checkBoxRemoteCueB.AutoSize = true;
+            this.checkBoxRemoteCueB.Location = new System.Drawing.Point(10, 283);
+            this.checkBoxRemoteCueB.Name = "checkBoxRemoteCueB";
+            this.checkBoxRemoteCueB.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxRemoteCueB.TabIndex = 27;
+            this.checkBoxRemoteCueB.Text = "Remote CUE enabled by Line B";
+            this.checkBoxRemoteCueB.UseVisualStyleBackColor = true;
+            this.checkBoxRemoteCueB.Click += new System.EventHandler(this.checkBoxRemoteCueB_Click);
             // 
-            // checkBox14
+            // checkBoxRemoteCueByMic
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(10, 306);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(15, 14);
-            this.checkBox14.TabIndex = 26;
-            this.checkBox14.UseVisualStyleBackColor = true;
-            this.checkBox14.Click += new System.EventHandler(this.checkBox14_Click);
+            this.checkBoxRemoteCueByMic.AutoSize = true;
+            this.checkBoxRemoteCueByMic.Location = new System.Drawing.Point(10, 306);
+            this.checkBoxRemoteCueByMic.Name = "checkBoxRemoteCueByMic";
+            this.checkBoxRemoteCueByMic.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxRemoteCueByMic.TabIndex = 26;
+            this.checkBoxRemoteCueByMic.Text = "Remote CUE enabled by MIC";
+            this.checkBoxRemoteCueByMic.UseVisualStyleBackColor = true;
+            this.checkBoxRemoteCueByMic.Click += new System.EventHandler(this.checkBoxRemoteCueByMic_Click);
             // 
-            // checkBox15
+            // checkBoxDjMic
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(10, 330);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(15, 14);
-            this.checkBox15.TabIndex = 25;
-            this.checkBox15.UseVisualStyleBackColor = true;
-            this.checkBox15.Click += new System.EventHandler(this.checkBox15_Click);
+            this.checkBoxDjMic.AutoSize = true;
+            this.checkBoxDjMic.Location = new System.Drawing.Point(10, 330);
+            this.checkBoxDjMic.Name = "checkBoxDjMic";
+            this.checkBoxDjMic.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxDjMic.TabIndex = 25;
+            this.checkBoxDjMic.Text = "DJ MIC";
+            this.checkBoxDjMic.UseVisualStyleBackColor = true;
+            this.checkBoxDjMic.Click += new System.EventHandler(this.checkBoxDjMic_Click);
             // 
-            // checkBox16
+            // checkBoxAnnMic
             // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(10, 353);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(15, 14);
-            this.checkBox16.TabIndex = 24;
-            this.checkBox16.UseVisualStyleBackColor = true;
-            this.checkBox16.Click += new System.EventHandler(this.checkBox16_Click);
+            this.checkBoxAnnMic.AutoSize = true;
+            this.checkBoxAnnMic.Location = new System.Drawing.Point(10, 353);
+            this.checkBoxAnnMic.Name = "checkBoxAnnMic";
+            this.checkBoxAnnMic.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxAnnMic.TabIndex = 24;
+            this.checkBoxAnnMic.Text = "ANN MIC";
+            this.checkBoxAnnMic.UseVisualStyleBackColor = true;
+            this.checkBoxAnnMic.Click += new System.EventHandler(this.checkBoxAnnMic_Click);
             // 
-            // checkBox17
+            // checkBoxStudioMic
             // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(10, 376);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(15, 14);
-            this.checkBox17.TabIndex = 23;
-            this.checkBox17.UseVisualStyleBackColor = true;
-            this.checkBox17.Click += new System.EventHandler(this.checkBox17_Click);
+            this.checkBoxStudioMic.AutoSize = true;
+            this.checkBoxStudioMic.Location = new System.Drawing.Point(10, 376);
+            this.checkBoxStudioMic.Name = "checkBoxStudioMic";
+            this.checkBoxStudioMic.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxStudioMic.TabIndex = 23;
+            this.checkBoxStudioMic.Text = "Studio MIC";
+            this.checkBoxStudioMic.UseVisualStyleBackColor = true;
+            this.checkBoxStudioMic.Click += new System.EventHandler(this.checkBoxStudioMic_Click);
             // 
-            // checkBox18
+            // checkBoxOnair1ByA
             // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(191, 30);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(15, 14);
-            this.checkBox18.TabIndex = 34;
-            this.checkBox18.UseVisualStyleBackColor = true;
-            this.checkBox18.Click += new System.EventHandler(this.checkBox18_Click);
+            this.checkBoxOnair1ByA.AutoSize = true;
+            this.checkBoxOnair1ByA.Location = new System.Drawing.Point(191, 30);
+            this.checkBoxOnair1ByA.Name = "checkBoxOnair1ByA";
+            this.checkBoxOnair1ByA.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxOnair1ByA.TabIndex = 34;
+            this.checkBoxOnair1ByA.Text = "ONAIR 1 enabled by LINE A";
+            this.checkBoxOnair1ByA.UseVisualStyleBackColor = true;
+            this.checkBoxOnair1ByA.Click += new System.EventHandler(this.checkBoxOnair1ByA_Click);
             // 
-            // checkBox19
+            // checkBoxOnair1ByB
             // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Location = new System.Drawing.Point(191, 53);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(15, 14);
-            this.checkBox19.TabIndex = 33;
-            this.checkBox19.UseVisualStyleBackColor = true;
-            this.checkBox19.Click += new System.EventHandler(this.checkBox19_Click);
+            this.checkBoxOnair1ByB.AutoSize = true;
+            this.checkBoxOnair1ByB.Location = new System.Drawing.Point(191, 53);
+            this.checkBoxOnair1ByB.Name = "checkBoxOnair1ByB";
+            this.checkBoxOnair1ByB.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxOnair1ByB.TabIndex = 33;
+            this.checkBoxOnair1ByB.Text = "ONAIR 1 enabled by LINE B";
+            this.checkBoxOnair1ByB.UseVisualStyleBackColor = true;
+            this.checkBoxOnair1ByB.Click += new System.EventHandler(this.checkBoxOnair1ByB_Click);
             // 
-            // checkBox20
+            // checkBoxOnAir1ByMic
             // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Location = new System.Drawing.Point(191, 76);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(15, 14);
-            this.checkBox20.TabIndex = 32;
-            this.checkBox20.UseVisualStyleBackColor = true;
-            this.checkBox20.Click += new System.EventHandler(this.checkBox20_Click);
+            this.checkBoxOnAir1ByMic.AutoSize = true;
+            this.checkBoxOnAir1ByMic.Location = new System.Drawing.Point(191, 76);
+            this.checkBoxOnAir1ByMic.Name = "checkBoxOnAir1ByMic";
+            this.checkBoxOnAir1ByMic.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxOnAir1ByMic.TabIndex = 32;
+            this.checkBoxOnAir1ByMic.Text = "ONAIR 1 enabled by MIC";
+            this.checkBoxOnAir1ByMic.UseVisualStyleBackColor = true;
+            this.checkBoxOnAir1ByMic.Click += new System.EventHandler(this.checkBoxOnAir1ByMic_Click);
             // 
-            // checkBox21
+            // checkBoxOnair2ByA
             // 
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.Location = new System.Drawing.Point(191, 99);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(15, 14);
-            this.checkBox21.TabIndex = 31;
-            this.checkBox21.UseVisualStyleBackColor = true;
-            this.checkBox21.Click += new System.EventHandler(this.checkBox21_Click);
+            this.checkBoxOnair2ByA.AutoSize = true;
+            this.checkBoxOnair2ByA.Location = new System.Drawing.Point(191, 99);
+            this.checkBoxOnair2ByA.Name = "checkBoxOnair2ByA";
+            this.checkBoxOnair2ByA.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxOnair2ByA.TabIndex = 31;
+            this.checkBoxOnair2ByA.Text = "ONAIR 2 enabled by LINE A";
+            this.checkBoxOnair2ByA.UseVisualStyleBackColor = true;
+            this.checkBoxOnair2ByA.Click += new System.EventHandler(this.checkBoxOnair2ByA_Click);
             // 
-            // checkBox22
+            // checkBoxOnair2ByB
             // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Location = new System.Drawing.Point(191, 122);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(15, 14);
-            this.checkBox22.TabIndex = 38;
-            this.checkBox22.UseVisualStyleBackColor = true;
-            this.checkBox22.Click += new System.EventHandler(this.checkBox22_Click);
+            this.checkBoxOnair2ByB.AutoSize = true;
+            this.checkBoxOnair2ByB.Location = new System.Drawing.Point(191, 122);
+            this.checkBoxOnair2ByB.Name = "checkBoxOnair2ByB";
+            this.checkBoxOnair2ByB.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxOnair2ByB.TabIndex = 38;
+            this.checkBoxOnair2ByB.Text = "ONAIR 2 enabled by LINE B";
+            this.checkBoxOnair2ByB.UseVisualStyleBackColor = true;
+            this.checkBoxOnair2ByB.Click += new System.EventHandler(this.checkBoxOnair2ByB_Click);
             // 
-            // checkBox23
+            // checkBoxOnAir2ByMic
             // 
-            this.checkBox23.AutoSize = true;
-            this.checkBox23.Location = new System.Drawing.Point(191, 145);
-            this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(15, 14);
-            this.checkBox23.TabIndex = 37;
-            this.checkBox23.UseVisualStyleBackColor = true;
-            this.checkBox23.Click += new System.EventHandler(this.checkBox23_Click);
+            this.checkBoxOnAir2ByMic.AutoSize = true;
+            this.checkBoxOnAir2ByMic.Location = new System.Drawing.Point(191, 145);
+            this.checkBoxOnAir2ByMic.Name = "ONAIR 2 enabled by MIC";
+            this.checkBoxOnAir2ByMic.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxOnAir2ByMic.TabIndex = 37;
+            this.checkBoxOnAir2ByMic.Text = "ONAIR 2 enabled by MIC";
+            this.checkBoxOnAir2ByMic.UseVisualStyleBackColor = true;
+            this.checkBoxOnAir2ByMic.Click += new System.EventHandler(this.checkBoxOnAir2ByMic_Click);
             // 
-            // checkBox24
+            // checkBoxModPowerOn
             // 
-            this.checkBox24.AutoSize = true;
-            this.checkBox24.Location = new System.Drawing.Point(191, 168);
-            this.checkBox24.Name = "checkBox24";
-            this.checkBox24.Size = new System.Drawing.Size(15, 14);
-            this.checkBox24.TabIndex = 36;
-            this.checkBox24.UseVisualStyleBackColor = true;
-            this.checkBox24.Click += new System.EventHandler(this.checkBox24_Click);
+            this.checkBoxModPowerOn.AutoSize = true;
+            this.checkBoxModPowerOn.Location = new System.Drawing.Point(191, 168);
+            this.checkBoxModPowerOn.Name = "checkBoxModPowerOn";
+            this.checkBoxModPowerOn.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxModPowerOn.TabIndex = 36;
+            this.checkBoxModPowerOn.Text = "Module ON at Power";
+            this.checkBoxModPowerOn.UseVisualStyleBackColor = true;
+            this.checkBoxModPowerOn.Click += new System.EventHandler(this.checkBoxModPowerOn_Click);
             // 
-            // checkBox25
+            // checkBoxMicLineA
             // 
-            this.checkBox25.AutoSize = true;
-            this.checkBox25.Location = new System.Drawing.Point(191, 191);
-            this.checkBox25.Name = "checkBox25";
-            this.checkBox25.Size = new System.Drawing.Size(15, 14);
-            this.checkBox25.TabIndex = 35;
-            this.checkBox25.UseVisualStyleBackColor = true;
-            this.checkBox25.Click += new System.EventHandler(this.checkBox25_Click);
+            this.checkBoxMicLineA.AutoSize = true;
+            this.checkBoxMicLineA.Location = new System.Drawing.Point(191, 191);
+            this.checkBoxMicLineA.Name = "checkBoxMicLineA";
+            this.checkBoxMicLineA.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxMicLineA.TabIndex = 35;
+            this.checkBoxMicLineA.Text = "Mic at Line A";
+            this.checkBoxMicLineA.UseVisualStyleBackColor = true;
+            this.checkBoxMicLineA.Click += new System.EventHandler(this.checkBoxMicLineA_Click);
             // 
-            // checkBox26
+            // checkBoxMicLineB
             // 
-            this.checkBox26.AutoSize = true;
-            this.checkBox26.Location = new System.Drawing.Point(191, 214);
-            this.checkBox26.Name = "checkBox26";
-            this.checkBox26.Size = new System.Drawing.Size(15, 14);
-            this.checkBox26.TabIndex = 42;
-            this.checkBox26.UseVisualStyleBackColor = true;
-            this.checkBox26.Click += new System.EventHandler(this.checkBox26_Click);
+            this.checkBoxMicLineB.AutoSize = true;
+            this.checkBoxMicLineB.Location = new System.Drawing.Point(191, 214);
+            this.checkBoxMicLineB.Name = "checkBoxMicLineB";
+            this.checkBoxMicLineB.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxMicLineB.TabIndex = 42;
+            this.checkBoxMicLineB.Text = "Mic at Line B";
+            this.checkBoxMicLineB.UseVisualStyleBackColor = true;
+            this.checkBoxMicLineB.Click += new System.EventHandler(this.checkBoxMicLineB_Click);
             // 
-            // checkBox27
+            // checkBoxRemoteByMic
             // 
-            this.checkBox27.AutoSize = true;
-            this.checkBox27.Location = new System.Drawing.Point(191, 237);
-            this.checkBox27.Name = "checkBox27";
-            this.checkBox27.Size = new System.Drawing.Size(15, 14);
-            this.checkBox27.TabIndex = 41;
-            this.checkBox27.UseVisualStyleBackColor = true;
-            this.checkBox27.Click += new System.EventHandler(this.checkBox27_Click);
+            this.checkBoxRemoteByMic.AutoSize = true;
+            this.checkBoxRemoteByMic.Location = new System.Drawing.Point(191, 237);
+            this.checkBoxRemoteByMic.Name = "checkBoxRemoteByMic";
+            this.checkBoxRemoteByMic.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxRemoteByMic.TabIndex = 41;
+            this.checkBoxRemoteByMic.Text = "Remote ON enabled by MIC";
+            this.checkBoxRemoteByMic.UseVisualStyleBackColor = true;
+            this.checkBoxRemoteByMic.Click += new System.EventHandler(this.checkBoxRemoteByMic_Click);
             // 
-            // checkBox28
+            // checkBoxRemoteByA
             // 
-            this.checkBox28.AutoSize = true;
-            this.checkBox28.Location = new System.Drawing.Point(191, 260);
-            this.checkBox28.Name = "checkBox28";
-            this.checkBox28.Size = new System.Drawing.Size(15, 14);
-            this.checkBox28.TabIndex = 40;
-            this.checkBox28.UseVisualStyleBackColor = true;
-            this.checkBox28.Click += new System.EventHandler(this.checkBox28_Click);
+            this.checkBoxRemoteByA.AutoSize = true;
+            this.checkBoxRemoteByA.Location = new System.Drawing.Point(191, 260);
+            this.checkBoxRemoteByA.Name = "checkBoxRemoteByA";
+            this.checkBoxRemoteByA.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxRemoteByA.TabIndex = 40;
+            this.checkBoxRemoteByA.Text = "Remote ON enabled by Line A";
+            this.checkBoxRemoteByA.UseVisualStyleBackColor = true;
+            this.checkBoxRemoteByA.Click += new System.EventHandler(this.checkBoxRemoteByA_Click);
             // 
-            // checkBox29
+            // checkBoxRemoteByB
             // 
-            this.checkBox29.AutoSize = true;
-            this.checkBox29.Location = new System.Drawing.Point(191, 283);
-            this.checkBox29.Name = "checkBox29";
-            this.checkBox29.Size = new System.Drawing.Size(15, 14);
-            this.checkBox29.TabIndex = 39;
-            this.checkBox29.UseVisualStyleBackColor = true;
-            this.checkBox29.Click += new System.EventHandler(this.checkBox29_Click);
+            this.checkBoxRemoteByB.AutoSize = true;
+            this.checkBoxRemoteByB.Location = new System.Drawing.Point(191, 283);
+            this.checkBoxRemoteByB.Name = "checkBoxRemoteByB";
+            this.checkBoxRemoteByB.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxRemoteByB.TabIndex = 39;
+            checkBoxRemoteByB.Text = "Remote ON enabled by Line B";
+            this.checkBoxRemoteByB.UseVisualStyleBackColor = true;
+            this.checkBoxRemoteByB.Click += new System.EventHandler(this.checkBoxRemoteByB_Click);
             // 
-            // checkBox30
+            // checkBoxSwitchStart
             // 
-            this.checkBox30.AutoSize = true;
-            this.checkBox30.Location = new System.Drawing.Point(191, 306);
-            this.checkBox30.Name = "checkBox30";
-            this.checkBox30.Size = new System.Drawing.Size(15, 14);
-            this.checkBox30.TabIndex = 43;
-            this.checkBox30.UseVisualStyleBackColor = true;
-            this.checkBox30.Click += new System.EventHandler(this.checkBox30_Click);
+            this.checkBoxSwitchStart.AutoSize = true;
+            this.checkBoxSwitchStart.Location = new System.Drawing.Point(191, 306);
+            this.checkBoxSwitchStart.Name = "checkBoxSwitchStart";
+            this.checkBoxSwitchStart.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxSwitchStart.TabIndex = 43;
+            this.checkBoxSwitchStart.Text = "Switch Start";
+            this.checkBoxSwitchStart.UseVisualStyleBackColor = true;
+            this.checkBoxSwitchStart.Click += new System.EventHandler(this.checkBoxSwitchStart_Click);
             // 
             // checkBoxAutoCueReset
             // 
@@ -607,62 +626,62 @@
             this.checkBoxRS232.UseVisualStyleBackColor = true;
             this.checkBoxRS232.Click += new System.EventHandler(this.checkBoxRS232_Click);
             // 
-            // button1
+            // buttonStartTimer
             // 
-            this.button1.Location = new System.Drawing.Point(33, 28);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 52;
-            this.button1.Text = "Start";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonStartTimer.Location = new System.Drawing.Point(33, 28);
+            this.buttonStartTimer.Name = "buttonStartTimer";
+            this.buttonStartTimer.Size = new System.Drawing.Size(75, 23);
+            this.buttonStartTimer.TabIndex = 52;
+            this.buttonStartTimer.Text = "Start";
+            this.buttonStartTimer.UseVisualStyleBackColor = true;
+            this.buttonStartTimer.Click += new System.EventHandler(this.buttonStartTimer_Click);
             // 
-            // button3
+            // buttonStopTimer
             // 
-            this.button3.Location = new System.Drawing.Point(33, 57);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 53;
-            this.button3.Text = "Stop";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.buttonStopTimer.Location = new System.Drawing.Point(33, 57);
+            this.buttonStopTimer.Name = "buttonStopTimer";
+            this.buttonStopTimer.Size = new System.Drawing.Size(75, 23);
+            this.buttonStopTimer.TabIndex = 53;
+            this.buttonStopTimer.Text = "Stop";
+            this.buttonStopTimer.UseVisualStyleBackColor = true;
+            this.buttonStopTimer.Click += new System.EventHandler(this.buttonStopTimer_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(33, 92);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 54;
-            this.button4.Text = "Reset";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.buttonResetTimer.Location = new System.Drawing.Point(33, 92);
+            this.buttonResetTimer.Name = "buttonResetTimer";
+            this.buttonResetTimer.Size = new System.Drawing.Size(75, 23);
+            this.buttonResetTimer.TabIndex = 54;
+            this.buttonResetTimer.Text = "Reset";
+            this.buttonResetTimer.UseVisualStyleBackColor = true;
+            this.buttonResetTimer.Click += new System.EventHandler(this.buttonResetTimer_Click);
             // 
-            // button5
+            // buttonSaveInternal
             // 
-            this.button5.Location = new System.Drawing.Point(25, 34);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(109, 23);
-            this.button5.TabIndex = 55;
-            this.button5.Text = "Save Internal";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.buttonSaveInternal.Location = new System.Drawing.Point(25, 34);
+            this.buttonSaveInternal.Name = "buttonSaveInternal";
+            this.buttonSaveInternal.Size = new System.Drawing.Size(109, 23);
+            this.buttonSaveInternal.TabIndex = 55;
+            this.buttonSaveInternal.Text = "Save Internal";
+            this.buttonSaveInternal.UseVisualStyleBackColor = true;
+            this.buttonSaveInternal.Click += new System.EventHandler(this.buttonSaveInternal_Click);
             // 
-            // button6
+            // buttonSaveChipCard
             // 
-            this.button6.Location = new System.Drawing.Point(185, 34);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(100, 23);
-            this.button6.TabIndex = 56;
-            this.button6.Text = "Save to ChipCard";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.buttonSaveChipCard.Location = new System.Drawing.Point(185, 34);
+            this.buttonSaveChipCard.Name = "buttonSaveChipCard";
+            this.buttonSaveChipCard.Size = new System.Drawing.Size(100, 23);
+            this.buttonSaveChipCard.TabIndex = 56;
+            this.buttonSaveChipCard.Text = "Save to ChipCard";
+            this.buttonSaveChipCard.UseVisualStyleBackColor = true;
+            this.buttonSaveChipCard.Click += new System.EventHandler(this.buttonSaveChipCard_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.buttonStopTimer);
+            this.groupBox1.Controls.Add(this.buttonStartTimer);
+            this.groupBox1.Controls.Add(this.buttonResetTimer);
             this.groupBox1.Location = new System.Drawing.Point(1157, 681);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(139, 146);
@@ -699,8 +718,8 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.button6);
-            this.groupBox3.Controls.Add(this.button5);
+            this.groupBox3.Controls.Add(this.buttonSaveChipCard);
+            this.groupBox3.Controls.Add(this.buttonSaveInternal);
             this.groupBox3.Location = new System.Drawing.Point(966, 833);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(330, 87);
@@ -711,27 +730,27 @@
             // groupBoxModule
             // 
             this.groupBoxModule.BackColor = System.Drawing.SystemColors.Control;
-            this.groupBoxModule.Controls.Add(this.checkBox30);
-            this.groupBoxModule.Controls.Add(this.checkBox26);
-            this.groupBoxModule.Controls.Add(this.checkBox27);
-            this.groupBoxModule.Controls.Add(this.checkBox28);
-            this.groupBoxModule.Controls.Add(this.checkBox29);
-            this.groupBoxModule.Controls.Add(this.checkBox22);
-            this.groupBoxModule.Controls.Add(this.checkBox23);
-            this.groupBoxModule.Controls.Add(this.checkBox24);
-            this.groupBoxModule.Controls.Add(this.checkBox25);
-            this.groupBoxModule.Controls.Add(this.checkBox18);
-            this.groupBoxModule.Controls.Add(this.checkBox19);
-            this.groupBoxModule.Controls.Add(this.checkBox20);
-            this.groupBoxModule.Controls.Add(this.checkBox21);
+            this.groupBoxModule.Controls.Add(this.checkBoxSwitchStart);
+            this.groupBoxModule.Controls.Add(this.checkBoxMicLineB);
+            this.groupBoxModule.Controls.Add(this.checkBoxRemoteByMic);
+            this.groupBoxModule.Controls.Add(this.checkBoxRemoteByA);
+            this.groupBoxModule.Controls.Add(this.checkBoxRemoteByB);
+            this.groupBoxModule.Controls.Add(this.checkBoxOnair2ByB);
+            this.groupBoxModule.Controls.Add(this.checkBoxOnAir2ByMic);
+            this.groupBoxModule.Controls.Add(this.checkBoxModPowerOn);
+            this.groupBoxModule.Controls.Add(this.checkBoxMicLineA);
+            this.groupBoxModule.Controls.Add(this.checkBoxOnair1ByA);
+            this.groupBoxModule.Controls.Add(this.checkBoxOnair1ByB);
+            this.groupBoxModule.Controls.Add(this.checkBoxOnAir1ByMic);
+            this.groupBoxModule.Controls.Add(this.checkBoxOnair2ByA);
             this.groupBoxModule.Controls.Add(this.checkBoxStartCue);
             this.groupBoxModule.Controls.Add(this.checkBoxStartPuls);
-            this.groupBoxModule.Controls.Add(this.checkBox12);
-            this.groupBoxModule.Controls.Add(this.checkBox13);
-            this.groupBoxModule.Controls.Add(this.checkBox14);
-            this.groupBoxModule.Controls.Add(this.checkBox15);
-            this.groupBoxModule.Controls.Add(this.checkBox16);
-            this.groupBoxModule.Controls.Add(this.checkBox17);
+            this.groupBoxModule.Controls.Add(this.checkBoxRemoteCueA);
+            this.groupBoxModule.Controls.Add(this.checkBoxRemoteCueB);
+            this.groupBoxModule.Controls.Add(this.checkBoxRemoteCueByMic);
+            this.groupBoxModule.Controls.Add(this.checkBoxDjMic);
+            this.groupBoxModule.Controls.Add(this.checkBoxAnnMic);
+            this.groupBoxModule.Controls.Add(this.checkBoxStudioMic);
             this.groupBoxModule.Controls.Add(this.checkBoxStartLineB);
             this.groupBoxModule.Controls.Add(this.checkBoxStartMic);
             this.groupBoxModule.Controls.Add(this.checkBoxStartFader);
@@ -949,34 +968,34 @@
         private System.Windows.Forms.CheckBox checkBoxStartOn;
         private System.Windows.Forms.CheckBox checkBoxStartCue;
         private System.Windows.Forms.CheckBox checkBoxStartPuls;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.CheckBox checkBox19;
-        private System.Windows.Forms.CheckBox checkBox20;
-        private System.Windows.Forms.CheckBox checkBox21;
-        private System.Windows.Forms.CheckBox checkBox22;
-        private System.Windows.Forms.CheckBox checkBox23;
-        private System.Windows.Forms.CheckBox checkBox24;
-        private System.Windows.Forms.CheckBox checkBox25;
-        private System.Windows.Forms.CheckBox checkBox26;
-        private System.Windows.Forms.CheckBox checkBox27;
-        private System.Windows.Forms.CheckBox checkBox28;
-        private System.Windows.Forms.CheckBox checkBox29;
-        private System.Windows.Forms.CheckBox checkBox30;
+        private System.Windows.Forms.CheckBox checkBoxRemoteCueA;
+        private System.Windows.Forms.CheckBox checkBoxRemoteCueB;
+        private System.Windows.Forms.CheckBox checkBoxRemoteCueByMic;
+        private System.Windows.Forms.CheckBox checkBoxDjMic;
+        private System.Windows.Forms.CheckBox checkBoxAnnMic;
+        private System.Windows.Forms.CheckBox checkBoxStudioMic;
+        private System.Windows.Forms.CheckBox checkBoxOnair1ByA;
+        private System.Windows.Forms.CheckBox checkBoxOnair1ByB;
+        private System.Windows.Forms.CheckBox checkBoxOnAir1ByMic;
+        private System.Windows.Forms.CheckBox checkBoxOnair2ByA;
+        private System.Windows.Forms.CheckBox checkBoxOnair2ByB;
+        private System.Windows.Forms.CheckBox checkBoxOnAir2ByMic;
+        private System.Windows.Forms.CheckBox checkBoxModPowerOn;
+        private System.Windows.Forms.CheckBox checkBoxMicLineA;
+        private System.Windows.Forms.CheckBox checkBoxMicLineB;
+        private System.Windows.Forms.CheckBox checkBoxRemoteByMic;
+        private System.Windows.Forms.CheckBox checkBoxRemoteByA;
+        private System.Windows.Forms.CheckBox checkBoxRemoteByB;
+        private System.Windows.Forms.CheckBox checkBoxSwitchStart;
         private System.Windows.Forms.CheckBox checkBoxAutoCueReset;
         private System.Windows.Forms.CheckBox checkBoxCueToCrm;
         private System.Windows.Forms.CheckBox checkBoxAutoCom;
         private System.Windows.Forms.CheckBox checkBoxRS232;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button buttonStartTimer;
+        private System.Windows.Forms.Button buttonStopTimer;
+        private System.Windows.Forms.Button buttonResetTimer;
+        private System.Windows.Forms.Button buttonSaveInternal;
+        private System.Windows.Forms.Button buttonSaveChipCard;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBoxMaster;
         private System.Windows.Forms.GroupBox groupBox3;

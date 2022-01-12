@@ -86,155 +86,155 @@ namespace AirlabRS232
             ChangeCheckBoxState(11, chTrueFalse);
         }
 
-        private void checkBox12_Click(object sender, EventArgs e)
+        private void checkBoxRemoteCueA_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox12.Checked == true) chTrueFalse = 1;
-            else if (checkBox12.Checked == false) chTrueFalse = 0;
+            if (checkBoxRemoteCueA.Checked == true) chTrueFalse = 1;
+            else if (checkBoxRemoteCueA.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(12, chTrueFalse);
         }
 
-        private void checkBox13_Click(object sender, EventArgs e)
+        private void checkBoxRemoteCueB_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox13.Checked == true) chTrueFalse = 1;
-            else if (checkBox13.Checked == false) chTrueFalse = 0;
+            if (checkBoxRemoteCueB.Checked == true) chTrueFalse = 1;
+            else if (checkBoxRemoteCueB.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(13, chTrueFalse);
         }
 
-        private void checkBox14_Click(object sender, EventArgs e)
+        private void checkBoxRemoteCueByMic_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox14.Checked == true) chTrueFalse = 1;
-            else if (checkBox14.Checked == false) chTrueFalse = 0;
+            if (checkBoxRemoteCueByMic.Checked == true) chTrueFalse = 1;
+            else if (checkBoxRemoteCueByMic.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(14, chTrueFalse);
         }
 
-        private void checkBox15_Click(object sender, EventArgs e)
+        private void checkBoxDjMic_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox15.Checked == true) chTrueFalse = 1;
-            else if (checkBox15.Checked == false) chTrueFalse = 0;
+            if (checkBoxDjMic.Checked == true) chTrueFalse = 1;
+            else if (checkBoxDjMic.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(15, chTrueFalse);
         }
 
-        private void checkBox16_Click(object sender, EventArgs e)
+        private void checkBoxAnnMic_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox16.Checked == true) chTrueFalse = 1;
-            else if (checkBox16.Checked == false) chTrueFalse = 0;
+            if (checkBoxAnnMic.Checked == true) chTrueFalse = 1;
+            else if (checkBoxAnnMic.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(16, chTrueFalse);
         }
 
-        private void checkBox17_Click(object sender, EventArgs e)
+        private void checkBoxStudioMic_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox17.Checked == true) chTrueFalse = 1;
-            else if (checkBox17.Checked == false) chTrueFalse = 0;
+            if (checkBoxStudioMic.Checked == true) chTrueFalse = 1;
+            else if (checkBoxStudioMic.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(17, chTrueFalse);
         }
 
-        private void checkBox18_Click(object sender, EventArgs e)
+        private void checkBoxOnair1ByA_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox18.Checked == true) chTrueFalse = 1;
-            else if (checkBox18.Checked == false) chTrueFalse = 0;
+            if (checkBoxOnair1ByA.Checked == true) chTrueFalse = 1;
+            else if (checkBoxOnair1ByA.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(18, chTrueFalse);
         }
 
-        private void checkBox19_Click(object sender, EventArgs e)
+        private void checkBoxOnair1ByB_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox19.Checked == true) chTrueFalse = 1;
-            else if (checkBox19.Checked == false) chTrueFalse = 0;
+            if (checkBoxOnair1ByB.Checked == true) chTrueFalse = 1;
+            else if (checkBoxOnair1ByB.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(19, chTrueFalse);
         }
 
-        private void checkBox20_Click(object sender, EventArgs e)
+        private void checkBoxOnAir1ByMic_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox20.Checked == true) chTrueFalse = 1;
-            else if (checkBox20.Checked == false) chTrueFalse = 0;
+            if (checkBoxOnAir1ByMic.Checked == true) chTrueFalse = 1;
+            else if (checkBoxOnAir1ByMic.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(20, chTrueFalse);
         }
 
-        private void checkBox21_Click(object sender, EventArgs e)
+        private void checkBoxOnair2ByA_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox21.Checked == true) chTrueFalse = 1;
-            else if (checkBox21.Checked == false) chTrueFalse = 0;
+            if (checkBoxOnair2ByA.Checked == true) chTrueFalse = 1;
+            else if (checkBoxOnair2ByA.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(21, chTrueFalse);
         }
 
-        private void checkBox22_Click(object sender, EventArgs e)
+        private void checkBoxOnair2ByB_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox22.Checked == true) chTrueFalse = 1;
-            else if (checkBox22.Checked == false) chTrueFalse = 0;
+            if (checkBoxOnair2ByB.Checked == true) chTrueFalse = 1;
+            else if (checkBoxOnair2ByB.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(22, chTrueFalse);
         }
 
-        private void checkBox23_Click(object sender, EventArgs e)
+        private void checkBoxOnAir2ByMic_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox23.Checked == true) chTrueFalse = 1;
-            else if (checkBox23.Checked == false) chTrueFalse = 0;
+            if (checkBoxOnAir2ByMic.Checked == true) chTrueFalse = 1;
+            else if (checkBoxOnAir2ByMic.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(23, chTrueFalse);
         }
 
-        private void checkBox24_Click(object sender, EventArgs e)
+        private void checkBoxModPowerOn_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox24.Checked == true) chTrueFalse = 1;
-            else if (checkBox24.Checked == false) chTrueFalse = 0;
+            if (checkBoxModPowerOn.Checked == true) chTrueFalse = 1;
+            else if (checkBoxModPowerOn.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(24, chTrueFalse);
         }
 
-        private void checkBox25_Click(object sender, EventArgs e)
+        private void checkBoxMicLineA_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox25.Checked == true) chTrueFalse = 1;
-            else if (checkBox25.Checked == false) chTrueFalse = 0;
+            if (checkBoxMicLineA.Checked == true) chTrueFalse = 1;
+            else if (checkBoxMicLineA.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(25, chTrueFalse);
         }
 
-        private void checkBox26_Click(object sender, EventArgs e)
+        private void checkBoxMicLineB_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox26.Checked == true) chTrueFalse = 1;
-            else if (checkBox26.Checked == false) chTrueFalse = 0;
+            if (checkBoxMicLineB.Checked == true) chTrueFalse = 1;
+            else if (checkBoxMicLineB.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(26, chTrueFalse);
         }
 
-        private void checkBox27_Click(object sender, EventArgs e)
+        private void checkBoxRemoteByMic_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox27.Checked == true) chTrueFalse = 1;
-            else if (checkBox27.Checked == false) chTrueFalse = 0;
+            if (checkBoxRemoteByMic.Checked == true) chTrueFalse = 1;
+            else if (checkBoxRemoteByMic.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(27, chTrueFalse);
         }
 
-        private void checkBox28_Click(object sender, EventArgs e)
+        private void checkBoxRemoteByA_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox28.Checked == true) chTrueFalse = 1;
-            else if (checkBox28.Checked == false) chTrueFalse = 0;
+            if (checkBoxRemoteByA.Checked == true) chTrueFalse = 1;
+            else if (checkBoxRemoteByA.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(28, chTrueFalse);
         }
 
-        private void checkBox29_Click(object sender, EventArgs e)
+        private void checkBoxRemoteByB_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox29.Checked == true) chTrueFalse = 1;
-            else if (checkBox29.Checked == false) chTrueFalse = 0;
+            if (checkBoxRemoteByB.Checked == true) chTrueFalse = 1;
+            else if (checkBoxRemoteByB.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(29, chTrueFalse);
         }
 
-        private void checkBox30_Click(object sender, EventArgs e)
+        private void checkBoxSwitchStart_Click(object sender, EventArgs e)
         {
             int chTrueFalse = 0;
-            if (checkBox30.Checked == true) chTrueFalse = 1;
-            else if (checkBox30.Checked == false) chTrueFalse = 0;
+            if (checkBoxSwitchStart.Checked == true) chTrueFalse = 1;
+            else if (checkBoxSwitchStart.Checked == false) chTrueFalse = 0;
             ChangeCheckBoxState(30, chTrueFalse);
         }
 

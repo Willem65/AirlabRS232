@@ -36,11 +36,11 @@ namespace AirlabRS232
         {
             checkBox1.Checked = false;
             buttonSend.Enabled = false;
-            button1.Enabled = false;
-            button3.Enabled = false;
-            button4.Enabled = false;
-            button5.Enabled = false;
-            button6.Enabled = false;
+            buttonStartTimer.Enabled = false;
+            buttonStopTimer.Enabled = false;
+            buttonResetTimer.Enabled = false;
+            buttonSaveInternal.Enabled = false;
+            buttonSaveChipCard.Enabled = false;
             button7.Enabled = false;
             foreach (var serialPort in SerialPort.GetPortNames())
             {
@@ -104,11 +104,11 @@ namespace AirlabRS232
             buttonConnect.Enabled = false;
             buttonDisconnect.Enabled = true;
             buttonSend.Enabled = true;
-            button1.Enabled = true;
-            button3.Enabled = true;
-            button4.Enabled = true;
-            button5.Enabled = true;
-            button6.Enabled = true;
+            buttonStartTimer.Enabled = true;
+            buttonStopTimer.Enabled = true;
+            buttonResetTimer.Enabled = true;
+            buttonSaveInternal.Enabled = true;
+            buttonSaveChipCard.Enabled = true;
             button7.Enabled = true;
             timer1.Start();
             serialPort1.DiscardOutBuffer();
@@ -353,11 +353,11 @@ namespace AirlabRS232
             timer1.Stop();
             groupBoxMaster.Enabled = false;
             groupBoxModule.Enabled = false;
-            button1.Enabled = false;
-            button3.Enabled = false;
-            button4.Enabled = false;
-            button5.Enabled = false;
-            button6.Enabled = false;
+            buttonStartTimer.Enabled = false;
+            buttonStopTimer.Enabled = false;
+            buttonResetTimer.Enabled = false;
+            buttonSaveInternal.Enabled = false;
+            buttonSaveChipCard.Enabled = false;
             button7.Enabled = false;
         }
 
@@ -416,7 +416,7 @@ namespace AirlabRS232
 
 
         // Start de Timer op de Airlab
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonStartTimer_Click(object sender, EventArgs e)
         {
             if (!serialPort1.IsOpen) return;
             byte[] bytestosend = { 0x90, 0x00, 0x00 };
@@ -428,7 +428,7 @@ namespace AirlabRS232
 
 
         // Save to Internal EEprom x24c16 op het mux bord
-        private void button5_Click(object sender, EventArgs e)
+        private void buttonSaveInternal_Click(object sender, EventArgs e)
         {
             if (!serialPort1.IsOpen) return;
             byte[] bytestosend = { 0x96, 0x00, 0x00 };
@@ -439,7 +439,7 @@ namespace AirlabRS232
 
 
         // Sla alle instellingen van de airlab op in de SmartCard
-        private void button6_Click(object sender, EventArgs e)
+        private void buttonSaveChipCard_Click(object sender, EventArgs e)
         {
             if (label7.BackColor == Color.LightGray)
             {
@@ -456,7 +456,7 @@ namespace AirlabRS232
 
 
         // Stop de Timer op de Airlab
-        private void button3_Click(object sender, EventArgs e)
+        private void buttonStopTimer_Click(object sender, EventArgs e)
         {
             if (!serialPort1.IsOpen) return;
             byte[] bytestosend = { 0x91, 0x00, 0x00 };
@@ -466,7 +466,7 @@ namespace AirlabRS232
 
 
         // Reset de Timer op de Airlab
-        private void button4_Click(object sender, EventArgs e)
+        private void buttonResetTimer_Click(object sender, EventArgs e)
         {
             if (!serialPort1.IsOpen) return;
             byte[] bytestosend = { 0x92, 0x00, 0x00 };

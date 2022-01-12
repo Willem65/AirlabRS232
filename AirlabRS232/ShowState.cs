@@ -272,276 +272,276 @@ namespace AirlabRS232
             // /*
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[10].Contains("01"))
             {
-                checkBox12.Width = checkBox12.Parent.Width - checkBox12.Left - 1;
-                checkBox12.Text = "Remote CUE enabled by Line A";
-                checkBox12.Checked = true;
+                checkBoxRemoteCueA.Width = checkBoxRemoteCueA.Parent.Width - checkBoxRemoteCueA.Left - 1;
+                checkBoxRemoteCueA.Text = "Remote CUE enabled by Line A";
+                checkBoxRemoteCueA.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[10].Contains("00"))
             {
-                checkBox12.Width = checkBox12.Parent.Width - checkBox12.Left - 1;
-                checkBox12.Text = "Remote CUE enabled by Line A";
-                checkBox12.Checked = false;
+                checkBoxRemoteCueA.Width = checkBoxRemoteCueA.Parent.Width - checkBoxRemoteCueA.Left - 1;
+                checkBoxRemoteCueA.Text = "Remote CUE enabled by Line A";
+                checkBoxRemoteCueA.Checked = false;
             }
 
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[11].Contains("01"))
             {
-                checkBox13.Width = checkBox13.Parent.Width - checkBox13.Left - 1;
-                checkBox13.Text = "Remote CUE enabled by Line B";
-                checkBox13.Checked = true;
+                checkBoxRemoteCueB.Width = checkBoxRemoteCueB.Parent.Width - checkBoxRemoteCueB.Left - 1;
+                checkBoxRemoteCueB.Text = "Remote CUE enabled by Line B";
+                checkBoxRemoteCueB.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[11].Contains("00"))
             {
-                checkBox13.Width = checkBox13.Parent.Width - checkBox13.Left - 1;
-                checkBox13.Text = "Remote CUE enabled by Line B";
-                checkBox13.Checked = false;
+                checkBoxRemoteCueB.Width = checkBoxRemoteCueB.Parent.Width - checkBoxRemoteCueB.Left - 1;
+                checkBoxRemoteCueB.Text = "Remote CUE enabled by Line B";
+                checkBoxRemoteCueB.Checked = false;
             }
 
 
             //------------14-----------------------------------------------------------------------------------------------------
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[12].Contains("01"))
             {
-                checkBox14.Width = checkBox14.Parent.Width - checkBox14.Left - 1;
-                checkBox14.Text = "Remote CUE enabled by MIC";
-                checkBox14.Checked = true;
+                checkBoxRemoteCueByMic.Width = checkBoxRemoteCueByMic.Parent.Width - checkBoxRemoteCueByMic.Left - 1;
+                checkBoxRemoteCueByMic.Text = "Remote CUE enabled by MIC";
+                checkBoxRemoteCueByMic.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[12].Contains("00"))
             {
-                checkBox14.Width = checkBox14.Parent.Width - checkBox14.Left - 1;
-                checkBox14.Text = "Remote CUE enabled by MIC";
-                checkBox14.Checked = false;
+                checkBoxRemoteCueByMic.Width = checkBoxRemoteCueByMic.Parent.Width - checkBoxRemoteCueByMic.Left - 1;
+                checkBoxRemoteCueByMic.Text = "Remote CUE enabled by MIC";
+                checkBoxRemoteCueByMic.Checked = false;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[13].Contains("01"))
             {
-                checkBox15.Width = checkBox15.Parent.Width - checkBox15.Left - 1;
-                checkBox15.Text = "DJ MIC";
-                checkBox15.Checked = true;
+                checkBoxDjMic.Width = checkBoxDjMic.Parent.Width - checkBoxDjMic.Left - 1;
+                checkBoxDjMic.Text = "DJ MIC";
+                checkBoxDjMic.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[13].Contains("00"))
             {
-                checkBox15.Width = checkBox15.Parent.Width - checkBox15.Left - 1;
-                checkBox15.Text = "DJ MIC";
-                checkBox15.Checked = false;
+                checkBoxDjMic.Width = checkBoxDjMic.Parent.Width - checkBoxDjMic.Left - 1;
+                checkBoxDjMic.Text = "DJ MIC";
+                checkBoxDjMic.Checked = false;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[14].Contains("01"))
             {
-                checkBox16.Width = checkBox16.Parent.Width - checkBox16.Left - 1;
-                checkBox16.Text = "ANN MIC";
-                checkBox16.Checked = true;
+                checkBoxAnnMic.Width = checkBoxAnnMic.Parent.Width - checkBoxAnnMic.Left - 1;
+                checkBoxAnnMic.Text = "ANN MIC";
+                checkBoxAnnMic.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[14].Contains("00"))
             {
-                checkBox16.Width = checkBox16.Parent.Width - checkBox16.Left - 1;
-                checkBox16.Text = "ANN MIC";
-                checkBox16.Checked = false;
+                checkBoxAnnMic.Width = checkBoxAnnMic.Parent.Width - checkBoxAnnMic.Left - 1;
+                checkBoxAnnMic.Text = "ANN MIC";
+                checkBoxAnnMic.Checked = false;
             }
 
             //
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[15].Contains("01"))
             {
-                checkBox17.Width = checkBox17.Parent.Width - checkBox17.Left - 1;
-                checkBox17.Text = "Studio MIC";
-                checkBox17.Checked = true;
+                checkBoxStudioMic.Width = checkBoxStudioMic.Parent.Width - checkBoxStudioMic.Left - 1;
+                checkBoxStudioMic.Text = "Studio MIC";
+                checkBoxStudioMic.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[15].Contains("00"))
             {
-                checkBox17.Width = checkBox17.Parent.Width - checkBox17.Left - 1;
-                checkBox17.Text = "Studio MIC";
-                checkBox17.Checked = false;
+                checkBoxStudioMic.Width = checkBoxStudioMic.Parent.Width - checkBoxStudioMic.Left - 1;
+                checkBoxStudioMic.Text = "Studio MIC";
+                checkBoxStudioMic.Checked = false;
             }
 
             //----------------------------------------------------------------------------------------------------
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[16].Contains("01"))
             {
-                checkBox18.Width = checkBox18.Parent.Width - checkBox18.Left - 1;
-                checkBox18.Text = "ONAIR 1 enabled by LINE A";
-                checkBox18.Checked = true;
+                checkBoxOnair1ByA.Width = checkBoxOnair1ByA.Parent.Width - checkBoxOnair1ByA.Left - 1;
+                checkBoxOnair1ByA.Text = "ONAIR 1 enabled by LINE A";
+                checkBoxOnair1ByA.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[16].Contains("00"))
             {
-                checkBox18.Width = checkBox18.Parent.Width - checkBox18.Left - 1;
-                checkBox18.Text = "ONAIR 1 enabled by LINE A";
-                checkBox18.Checked = false;
+                checkBoxOnair1ByA.Width = checkBoxOnair1ByA.Parent.Width - checkBoxOnair1ByA.Left - 1;
+                checkBoxOnair1ByA.Text = "ONAIR 1 enabled by LINE A";
+                checkBoxOnair1ByA.Checked = false;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[17].Contains("01"))
             {
-                checkBox19.Width = checkBox19.Parent.Width - checkBox19.Left - 1;
-                checkBox19.Text = "ONAIR 1 enabled by LINE B";
-                checkBox19.Checked = true;
+                checkBoxOnair1ByB.Width = checkBoxOnair1ByB.Parent.Width - checkBoxOnair1ByB.Left - 1;
+                checkBoxOnair1ByB.Text = "ONAIR 1 enabled by LINE B";
+                checkBoxOnair1ByB.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[17].Contains("00"))
             {
-                checkBox19.Width = checkBox19.Parent.Width - checkBox19.Left - 1;
-                checkBox19.Text = "ONAIR 1 enabled by LINE B";
-                checkBox19.Checked = false;
+                checkBoxOnair1ByB.Width = checkBoxOnair1ByB.Parent.Width - checkBoxOnair1ByB.Left - 1;
+                checkBoxOnair1ByB.Text = "ONAIR 1 enabled by LINE B";
+                checkBoxOnair1ByB.Checked = false;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[18].Contains("01"))
             {
-                checkBox20.Width = checkBox20.Parent.Width - checkBox20.Left - 1;
-                checkBox20.Text = "ONAIR 1 enabled by MIC";
-                checkBox20.Checked = true;
+                checkBoxOnAir1ByMic.Width = checkBoxOnAir1ByMic.Parent.Width - checkBoxOnAir1ByMic.Left - 1;
+                checkBoxOnAir1ByMic.Text = "ONAIR 1 enabled by MIC";
+                checkBoxOnAir1ByMic.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[18].Contains("00"))
             {
-                checkBox20.Width = checkBox20.Parent.Width - checkBox20.Left - 1;
-                checkBox20.Text = "ONAIR 1 enabled by MIC";
-                checkBox20.Checked = false;
+                checkBoxOnAir1ByMic.Width = checkBoxOnAir1ByMic.Parent.Width - checkBoxOnAir1ByMic.Left - 1;
+                checkBoxOnAir1ByMic.Text = "ONAIR 1 enabled by MIC";
+                checkBoxOnAir1ByMic.Checked = false;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[19].Contains("01"))
             {
-                checkBox21.Width = checkBox21.Parent.Width - checkBox21.Left - 1;
-                checkBox21.Text = "ONAIR 2 enabled by LINE A";
-                checkBox21.Checked = true;
+                checkBoxOnair2ByA.Width = checkBoxOnair2ByA.Parent.Width - checkBoxOnair2ByA.Left - 1;
+                checkBoxOnair2ByA.Text = "ONAIR 2 enabled by LINE A";
+                checkBoxOnair2ByA.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[19].Contains("00"))
             {
-                checkBox21.Width = checkBox21.Parent.Width - checkBox21.Left - 1;
-                checkBox21.Text = "ONAIR 2 enabled by LINE A";
-                checkBox21.Checked = false;
+                checkBoxOnair2ByA.Width = checkBoxOnair2ByA.Parent.Width - checkBoxOnair2ByA.Left - 1;
+                checkBoxOnair2ByA.Text = "ONAIR 2 enabled by LINE A";
+                checkBoxOnair2ByA.Checked = false;
             }
 
             //------------22----------------------------------------------------------------------------------------
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[20].Contains("01"))
             {
-                checkBox22.Width = checkBox22.Parent.Width - checkBox22.Left - 1;
-                checkBox22.Text = "ONAIR 2 enabled by LINE B";
-                checkBox22.Checked = true;
+                checkBoxOnair2ByB.Width = checkBoxOnair2ByB.Parent.Width - checkBoxOnair2ByB.Left - 1;
+                checkBoxOnair2ByB.Text = "ONAIR 2 enabled by LINE B";
+                checkBoxOnair2ByB.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[20].Contains("00"))
             {
-                checkBox22.Width = checkBox22.Parent.Width - checkBox22.Left - 1;
-                checkBox22.Text = "ONAIR 2 enabled by LINE B";
-                checkBox22.Checked = false;
+                checkBoxOnair2ByB.Width = checkBoxOnair2ByB.Parent.Width - checkBoxOnair2ByB.Left - 1;
+                checkBoxOnair2ByB.Text = "ONAIR 2 enabled by LINE B";
+                checkBoxOnair2ByB.Checked = false;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[21].Contains("01"))
             {
-                checkBox23.Width = checkBox23.Parent.Width - checkBox23.Left - 1;
-                checkBox23.Text = "ONAIR 2 enabled by MIC";
-                checkBox23.Checked = true;
+                checkBoxOnAir2ByMic.Width = checkBoxOnAir2ByMic.Parent.Width - checkBoxOnAir2ByMic.Left - 1;
+                checkBoxOnAir2ByMic.Text = "ONAIR 2 enabled by MIC";
+                checkBoxOnAir2ByMic.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[21].Contains("00"))
             {
-                checkBox23.Width = checkBox23.Parent.Width - checkBox23.Left - 1;
-                checkBox23.Text = "ONAIR 2 enabled by MIC";
-                checkBox23.Checked = false;
+                checkBoxOnAir2ByMic.Width = checkBoxOnAir2ByMic.Parent.Width - checkBoxOnAir2ByMic.Left - 1;
+                checkBoxOnAir2ByMic.Text = "ONAIR 2 enabled by MIC";
+                checkBoxOnAir2ByMic.Checked = false;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[22].Contains("01"))
             {
-                checkBox24.Width = checkBox24.Parent.Width - checkBox24.Left - 1;
-                checkBox24.Text = "Module ON at Power";
-                checkBox24.Checked = true;
+                checkBoxModPowerOn.Width = checkBoxModPowerOn.Parent.Width - checkBoxModPowerOn.Left - 1;
+                checkBoxModPowerOn.Text = "Module ON at Power";
+                checkBoxModPowerOn.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[22].Contains("00"))
             {
-                checkBox24.Width = checkBox24.Parent.Width - checkBox24.Left - 1;
-                checkBox24.Text = "Module ON at Power";
-                checkBox24.Checked = false;
+                checkBoxModPowerOn.Width = checkBoxModPowerOn.Parent.Width - checkBoxModPowerOn.Left - 1;
+                checkBoxModPowerOn.Text = "Module ON at Power";
+                checkBoxModPowerOn.Checked = false;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[23].Contains("01"))
             {
-                checkBox25.Width = checkBox25.Parent.Width - checkBox25.Left - 1;
-                checkBox25.Text = "Mic at Line A";
-                checkBox25.Checked = true;
+                checkBoxMicLineA.Width = checkBoxMicLineA.Parent.Width - checkBoxMicLineA.Left - 1;
+                checkBoxMicLineA.Text = "Mic at Line A";
+                checkBoxMicLineA.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[23].Contains("00"))
             {
-                checkBox25.Width = checkBox25.Parent.Width - checkBox25.Left - 1;
-                checkBox25.Text = "Mic at Line A";
-                checkBox25.Checked = false;
+                checkBoxMicLineA.Width = checkBoxMicLineA.Parent.Width - checkBoxMicLineA.Left - 1;
+                checkBoxMicLineA.Text = "Mic at Line A";
+                checkBoxMicLineA.Checked = false;
             }
             //----------------------------------------------------------------------------------------------------
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[24].Contains("01"))
             {
-                checkBox26.Width = checkBox26.Parent.Width - checkBox26.Left - 1;
-                checkBox26.Text = "Mic at Line B";
-                checkBox26.Checked = true;
+                checkBoxMicLineB.Width = checkBoxMicLineB.Parent.Width - checkBoxMicLineB.Left - 1;
+                checkBoxMicLineB.Text = "Mic at Line B";
+                checkBoxMicLineB.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[24].Contains("00"))
             {
-                checkBox26.Width = checkBox26.Parent.Width - checkBox26.Left - 1;
-                checkBox26.Text = "Mic at Line B";
-                checkBox26.Checked = false;
+                checkBoxMicLineB.Width = checkBoxMicLineB.Parent.Width - checkBoxMicLineB.Left - 1;
+                checkBoxMicLineB.Text = "Mic at Line B";
+                checkBoxMicLineB.Checked = false;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[25].Contains("01"))
             {
-                checkBox27.Width = checkBox27.Parent.Width - checkBox27.Left - 1;
-                checkBox27.Text = "Remote ON enabled by MIC";
-                checkBox27.Checked = true;
+                checkBoxRemoteByMic.Width = checkBoxRemoteByMic.Parent.Width - checkBoxRemoteByMic.Left - 1;
+                checkBoxRemoteByMic.Text = "Remote ON enabled by MIC";
+                checkBoxRemoteByMic.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[25].Contains("00"))
             {
-                checkBox27.Width = checkBox27.Parent.Width - checkBox27.Left - 1;
-                checkBox27.Text = "Remote ON enabled by MIC";
-                checkBox27.Checked = false;
+                checkBoxRemoteByMic.Width = checkBoxRemoteByMic.Parent.Width - checkBoxRemoteByMic.Left - 1;
+                checkBoxRemoteByMic.Text = "Remote ON enabled by MIC";
+                checkBoxRemoteByMic.Checked = false;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[26].Contains("01"))
             {
-                checkBox28.Width = 180;
-                checkBox28.Text = "Remote ON enabled by Line A";
-                checkBox28.Checked = true;
+                checkBoxRemoteByA.Width = 180;
+                checkBoxRemoteByA.Text = "Remote ON enabled by Line A";
+                checkBoxRemoteByA.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[26].Contains("00"))
             {
-                checkBox28.Width = 180;
-                checkBox28.Text = "Remote ON enabled by Line A";
-                checkBox28.Checked = false;
+                checkBoxRemoteByA.Width = 180;
+                checkBoxRemoteByA.Text = "Remote ON enabled by Line A";
+                checkBoxRemoteByA.Checked = false;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[27].Contains("01"))
             {
-                checkBox29.Width = 180;
-                checkBox29.Text = "Remote ON enabled by Line B";
-                checkBox29.Checked = true;
+                checkBoxRemoteByB.Width = 180;
+                checkBoxRemoteByB.Text = "Remote ON enabled by Line B";
+                checkBoxRemoteByB.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[27].Contains("00"))
             {
-                checkBox29.Width = 180;
-                checkBox29.Text = "Remote ON enabled by Line B";
-                checkBox29.Checked = false;
+                checkBoxRemoteByB.Width = 180;
+                checkBoxRemoteByB.Text = "Remote ON enabled by Line B";
+                checkBoxRemoteByB.Checked = false;
             }
             //----------------------------------------------------------------------------------------------------
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[28].Contains("01"))
             {
-                checkBox30.Width = checkBox30.Parent.Width - checkBox30.Left - 1;
-                checkBox30.Text = "Switch Start";
-                checkBox30.Checked = true;
+                checkBoxSwitchStart.Width = checkBoxSwitchStart.Parent.Width - checkBoxSwitchStart.Left - 1;
+                checkBoxSwitchStart.Text = "Switch Start";
+                checkBoxSwitchStart.Checked = true;
             }
 
             if (bericht.Contains("93") && vanwie.Contains(kanaal) && dedata[28].Contains("00"))
             {
-                checkBox30.Width = checkBox30.Parent.Width - checkBox30.Left - 1;
-                checkBox30.Text = "Switch Start";
-                checkBox30.Checked = false;
+                checkBoxSwitchStart.Width = checkBoxSwitchStart.Parent.Width - checkBoxSwitchStart.Left - 1;
+                checkBoxSwitchStart.Text = "Switch Start";
+                checkBoxSwitchStart.Checked = false;
             }
         }
     }

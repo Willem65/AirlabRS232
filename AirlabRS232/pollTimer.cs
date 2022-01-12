@@ -56,25 +56,25 @@ namespace AirlabRS232
                 checkBoxStartOn.Visible = false;
                 checkBoxStartCue.Visible = false;
                 checkBoxStartPuls.Visible = false;
-                checkBox12.Visible = true;
-                checkBox13.Visible = true;
-                checkBox14.Visible = false;
-                checkBox15.Visible = false;
-                checkBox16.Visible = false;
-                checkBox17.Visible = false;
-                checkBox18.Visible = true;
-                checkBox19.Visible = true;
-                checkBox20.Visible = false;
-                checkBox21.Visible = true;
-                checkBox22.Visible = true;
-                checkBox23.Visible = false;
-                checkBox24.Visible = true;
-                checkBox25.Visible = false;
-                checkBox26.Visible = false;
-                checkBox27.Visible = false;
-                checkBox28.Visible = false;
-                checkBox29.Visible = false;
-                checkBox30.Visible = false;
+                checkBoxRemoteCueA.Visible = true;
+                checkBoxRemoteCueB.Visible = true;
+                checkBoxRemoteCueByMic.Visible = false;
+                checkBoxDjMic.Visible = false;
+                checkBoxAnnMic.Visible = false;
+                checkBoxStudioMic.Visible = false;
+                checkBoxOnair1ByA.Visible = true;
+                checkBoxOnair1ByB.Visible = true;
+                checkBoxOnAir1ByMic.Visible = false;
+                checkBoxOnair2ByA.Visible = true;
+                checkBoxOnair2ByB.Visible = true;
+                checkBoxOnAir2ByMic.Visible = false;
+                checkBoxModPowerOn.Visible = true;
+                checkBoxMicLineA.Visible = false;
+                checkBoxMicLineB.Visible = false;
+                checkBoxRemoteByMic.Visible = false;
+                checkBoxRemoteByA.Visible = false;
+                checkBoxRemoteByB.Visible = false;
+                checkBoxSwitchStart.Visible = false;
             }
 
             if (deConfig[value] == "tripleKanaal" && bericht.Contains("93"))
