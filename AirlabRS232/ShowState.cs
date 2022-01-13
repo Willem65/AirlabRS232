@@ -28,22 +28,18 @@ namespace AirlabRS232
                 checkBoxAutoCueReset.Checked = true;
             if (bericht.Contains("94") && vanwie.Contains("00") && dedata[0].Contains("00"))
                 checkBoxAutoCueReset.Checked = false;
-
             if (bericht.Contains("94") && vanwie.Contains("00") && dedata[1].Contains("01"))
                 checkBoxCueToCrm.Checked = true;
             if (bericht.Contains("94") && vanwie.Contains("00") && dedata[1].Contains("00"))
                 checkBoxCueToCrm.Checked = false;
-
             if (bericht.Contains("94") && vanwie.Contains("00") && dedata[2].Contains("01"))
                 checkBoxAutoCom.Checked = true;
             if (bericht.Contains("94") && vanwie.Contains("00") && dedata[2].Contains("00"))
                 checkBoxAutoCom.Checked = false;
-
             if (bericht.Contains("94") && vanwie.Contains("00") && dedata[3].Contains("01"))
                 checkBoxRS232.Checked = true;
             if (bericht.Contains("94") && vanwie.Contains("00") && dedata[3].Contains("00"))
                 checkBoxRS232.Checked = false;
-
             if (bericht.Contains("94") && vanwie.Contains("00") && dedata[4].Contains("01"))
                 checkBoxConsole.Checked = true;
             if (bericht.Contains("94") && vanwie.Contains("00") && dedata[4].Contains("00"))
