@@ -409,7 +409,7 @@ namespace AirlabRS232
         {
             if (!serialPort1.IsOpen) return;
             byte numv = (byte) (Convert.ToByte(numericUpDown1.Value.ToString(), 10) - 0x1);
-            byte[] bytestosend = {0xb3, numv, 0x00};
+            byte[] bytestosend = { 0xb3, numv, 0x00 };
             serialPort1.Write(bytestosend, 0, 3);
         }
 

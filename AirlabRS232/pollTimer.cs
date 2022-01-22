@@ -14,7 +14,7 @@ namespace AirlabRS232
             {
                 runOneTime = 1;
                 Thread.Sleep(170);
-                byte[] bytestosend = { 0xb3, 0x00, 0x00 };     // eventjes uitgezet
+                byte[] bytestosend = { 0xb3, 0x00, 0x00 };     
                 serialPort1.Write(bytestosend, 0, 3);
             }
 
@@ -23,27 +23,16 @@ namespace AirlabRS232
                 groupBoxModule.Enabled = true;
                 groupBoxMaster.Enabled = false;
             }
-            else if (bericht.Contains("94"))
+            if (bericht.Contains("94"))
             {
                 groupBoxMaster.Enabled = true;
                 groupBoxModule.Enabled = false;
             }
-            else
-            {
-                groupBoxMaster.Enabled = false;
-                groupBoxModule.Enabled = false;
-            }
 
-            int value = 0;
 
-            if (vanwie != "")
-            {
-                value = Convert.ToInt32(vanwie, 16);
-            }
+            int selectedModule = (int)(Convert.ToInt32(numericUpDown1.Value.ToString(), 10) - 0x1);
 
-            
-
-            if (deConfig[value] == "telcoKanaal" && bericht.Contains("93"))
+            if (deConfig[selectedModule] == "telcoKanaal" && bericht.Contains("93"))
             {
                 groupBoxModule.Enabled = true;
                 checkBoxTimerLineA.Visible = true;
@@ -77,12 +66,12 @@ namespace AirlabRS232
                 checkBoxSwitchStart.Visible = false;
             }
 
-            if (deConfig[value] == "tripleKanaal" && bericht.Contains("93"))
+            if (deConfig[selectedModule] == "tripleKanaal" && bericht.Contains("93"))
             {
                 groupBoxModule.Enabled = true;
                 foreach (var vari in groupBoxModule.Controls)
                 {
-                    var cb = (CheckBox) vari;
+                    var cb = (CheckBox)vari;
                     if (cb != null)
                     {
                         cb.Visible = true;
@@ -90,11 +79,11 @@ namespace AirlabRS232
                 }
             }
 
-            if (deConfig[value] == "leegKanaal" || !bericht.Contains("93"))
+            if (deConfig[selectedModule] == "leegKanaal") // || !bericht.Contains("93"))
             {
                 foreach (var vari in groupBoxModule.Controls)
                 {
-                    var cb = (CheckBox) vari;
+                    var cb = (CheckBox)vari;
                     if (cb != null)
                     {
                         cb.Visible = false;
