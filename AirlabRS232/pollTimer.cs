@@ -23,10 +23,15 @@ namespace AirlabRS232
                 groupBoxModule.Enabled = true;
                 groupBoxMaster.Enabled = false;
             }
-            if (bericht.Contains("94"))
+            else if (bericht.Contains("94"))
             {
                 groupBoxMaster.Enabled = true;
                 groupBoxModule.Enabled = false;
+            }
+            else
+            {
+                groupBoxModule.Enabled = false;
+                groupBoxMaster.Enabled = false;
             }
 
 

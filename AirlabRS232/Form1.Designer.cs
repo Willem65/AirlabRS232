@@ -378,7 +378,7 @@
             this.checkBoxRemoteCueA.AutoSize = true;
             this.checkBoxRemoteCueA.Location = new System.Drawing.Point(10, 260);
             this.checkBoxRemoteCueA.Name = "checkBoxRemoteCueA";
-            this.checkBoxRemoteCueA.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxRemoteCueA.Size = new System.Drawing.Size(176, 17);
             this.checkBoxRemoteCueA.TabIndex = 28;
             this.checkBoxRemoteCueA.Text = "Remote CUE enabled by Line A";
             this.checkBoxRemoteCueA.UseVisualStyleBackColor = true;
@@ -389,7 +389,7 @@
             this.checkBoxRemoteCueB.AutoSize = true;
             this.checkBoxRemoteCueB.Location = new System.Drawing.Point(10, 283);
             this.checkBoxRemoteCueB.Name = "checkBoxRemoteCueB";
-            this.checkBoxRemoteCueB.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxRemoteCueB.Size = new System.Drawing.Size(176, 17);
             this.checkBoxRemoteCueB.TabIndex = 27;
             this.checkBoxRemoteCueB.Text = "Remote CUE enabled by Line B";
             this.checkBoxRemoteCueB.UseVisualStyleBackColor = true;
@@ -400,7 +400,7 @@
             this.checkBoxRemoteCueByMic.AutoSize = true;
             this.checkBoxRemoteCueByMic.Location = new System.Drawing.Point(10, 306);
             this.checkBoxRemoteCueByMic.Name = "checkBoxRemoteCueByMic";
-            this.checkBoxRemoteCueByMic.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxRemoteCueByMic.Size = new System.Drawing.Size(165, 17);
             this.checkBoxRemoteCueByMic.TabIndex = 26;
             this.checkBoxRemoteCueByMic.Text = "Remote CUE enabled by MIC";
             this.checkBoxRemoteCueByMic.UseVisualStyleBackColor = true;
@@ -411,7 +411,7 @@
             this.checkBoxDjMic.AutoSize = true;
             this.checkBoxDjMic.Location = new System.Drawing.Point(10, 330);
             this.checkBoxDjMic.Name = "checkBoxDjMic";
-            this.checkBoxDjMic.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxDjMic.Size = new System.Drawing.Size(61, 17);
             this.checkBoxDjMic.TabIndex = 25;
             this.checkBoxDjMic.Text = "DJ MIC";
             this.checkBoxDjMic.UseVisualStyleBackColor = true;
@@ -422,7 +422,7 @@
             this.checkBoxAnnMic.AutoSize = true;
             this.checkBoxAnnMic.Location = new System.Drawing.Point(10, 353);
             this.checkBoxAnnMic.Name = "checkBoxAnnMic";
-            this.checkBoxAnnMic.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxAnnMic.Size = new System.Drawing.Size(71, 17);
             this.checkBoxAnnMic.TabIndex = 24;
             this.checkBoxAnnMic.Text = "ANN MIC";
             this.checkBoxAnnMic.UseVisualStyleBackColor = true;
@@ -433,7 +433,7 @@
             this.checkBoxStudioMic.AutoSize = true;
             this.checkBoxStudioMic.Location = new System.Drawing.Point(10, 376);
             this.checkBoxStudioMic.Name = "checkBoxStudioMic";
-            this.checkBoxStudioMic.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxStudioMic.Size = new System.Drawing.Size(78, 17);
             this.checkBoxStudioMic.TabIndex = 23;
             this.checkBoxStudioMic.Text = "Studio MIC";
             this.checkBoxStudioMic.UseVisualStyleBackColor = true;
@@ -444,7 +444,7 @@
             this.checkBoxOnair1ByA.AutoSize = true;
             this.checkBoxOnair1ByA.Location = new System.Drawing.Point(191, 30);
             this.checkBoxOnair1ByA.Name = "checkBoxOnair1ByA";
-            this.checkBoxOnair1ByA.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxOnair1ByA.Size = new System.Drawing.Size(161, 17);
             this.checkBoxOnair1ByA.TabIndex = 34;
             this.checkBoxOnair1ByA.Text = "ONAIR 1 enabled by LINE A";
             this.checkBoxOnair1ByA.UseVisualStyleBackColor = true;
@@ -455,7 +455,7 @@
             this.checkBoxOnair1ByB.AutoSize = true;
             this.checkBoxOnair1ByB.Location = new System.Drawing.Point(191, 53);
             this.checkBoxOnair1ByB.Name = "checkBoxOnair1ByB";
-            this.checkBoxOnair1ByB.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxOnair1ByB.Size = new System.Drawing.Size(161, 17);
             this.checkBoxOnair1ByB.TabIndex = 33;
             this.checkBoxOnair1ByB.Text = "ONAIR 1 enabled by LINE B";
             this.checkBoxOnair1ByB.UseVisualStyleBackColor = true;
@@ -466,7 +466,7 @@
             this.checkBoxOnAir1ByMic.AutoSize = true;
             this.checkBoxOnAir1ByMic.Location = new System.Drawing.Point(191, 76);
             this.checkBoxOnAir1ByMic.Name = "checkBoxOnAir1ByMic";
-            this.checkBoxOnAir1ByMic.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxOnAir1ByMic.Size = new System.Drawing.Size(146, 17);
             this.checkBoxOnAir1ByMic.TabIndex = 32;
             this.checkBoxOnAir1ByMic.Text = "ONAIR 1 enabled by MIC";
             this.checkBoxOnAir1ByMic.UseVisualStyleBackColor = true;
@@ -477,7 +477,7 @@
             this.checkBoxOnair2ByA.AutoSize = true;
             this.checkBoxOnair2ByA.Location = new System.Drawing.Point(191, 99);
             this.checkBoxOnair2ByA.Name = "checkBoxOnair2ByA";
-            this.checkBoxOnair2ByA.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxOnair2ByA.Size = new System.Drawing.Size(161, 17);
             this.checkBoxOnair2ByA.TabIndex = 31;
             this.checkBoxOnair2ByA.Text = "ONAIR 2 enabled by LINE A";
             this.checkBoxOnair2ByA.UseVisualStyleBackColor = true;
@@ -488,7 +488,7 @@
             this.checkBoxOnair2ByB.AutoSize = true;
             this.checkBoxOnair2ByB.Location = new System.Drawing.Point(191, 122);
             this.checkBoxOnair2ByB.Name = "checkBoxOnair2ByB";
-            this.checkBoxOnair2ByB.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxOnair2ByB.Size = new System.Drawing.Size(161, 17);
             this.checkBoxOnair2ByB.TabIndex = 38;
             this.checkBoxOnair2ByB.Text = "ONAIR 2 enabled by LINE B";
             this.checkBoxOnair2ByB.UseVisualStyleBackColor = true;
@@ -498,8 +498,8 @@
             // 
             this.checkBoxOnAir2ByMic.AutoSize = true;
             this.checkBoxOnAir2ByMic.Location = new System.Drawing.Point(191, 145);
-            this.checkBoxOnAir2ByMic.Name = "ONAIR 2 enabled by MIC";
-            this.checkBoxOnAir2ByMic.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxOnAir2ByMic.Name = "checkBoxOnAir2ByMic";
+            this.checkBoxOnAir2ByMic.Size = new System.Drawing.Size(146, 17);
             this.checkBoxOnAir2ByMic.TabIndex = 37;
             this.checkBoxOnAir2ByMic.Text = "ONAIR 2 enabled by MIC";
             this.checkBoxOnAir2ByMic.UseVisualStyleBackColor = true;
@@ -510,7 +510,7 @@
             this.checkBoxModPowerOn.AutoSize = true;
             this.checkBoxModPowerOn.Location = new System.Drawing.Point(191, 168);
             this.checkBoxModPowerOn.Name = "checkBoxModPowerOn";
-            this.checkBoxModPowerOn.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxModPowerOn.Size = new System.Drawing.Size(125, 17);
             this.checkBoxModPowerOn.TabIndex = 36;
             this.checkBoxModPowerOn.Text = "Module ON at Power";
             this.checkBoxModPowerOn.UseVisualStyleBackColor = true;
@@ -521,7 +521,7 @@
             this.checkBoxMicLineA.AutoSize = true;
             this.checkBoxMicLineA.Location = new System.Drawing.Point(191, 191);
             this.checkBoxMicLineA.Name = "checkBoxMicLineA";
-            this.checkBoxMicLineA.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxMicLineA.Size = new System.Drawing.Size(88, 17);
             this.checkBoxMicLineA.TabIndex = 35;
             this.checkBoxMicLineA.Text = "Mic at Line A";
             this.checkBoxMicLineA.UseVisualStyleBackColor = true;
@@ -532,7 +532,7 @@
             this.checkBoxMicLineB.AutoSize = true;
             this.checkBoxMicLineB.Location = new System.Drawing.Point(191, 214);
             this.checkBoxMicLineB.Name = "checkBoxMicLineB";
-            this.checkBoxMicLineB.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxMicLineB.Size = new System.Drawing.Size(88, 17);
             this.checkBoxMicLineB.TabIndex = 42;
             this.checkBoxMicLineB.Text = "Mic at Line B";
             this.checkBoxMicLineB.UseVisualStyleBackColor = true;
@@ -543,7 +543,7 @@
             this.checkBoxRemoteByMic.AutoSize = true;
             this.checkBoxRemoteByMic.Location = new System.Drawing.Point(191, 237);
             this.checkBoxRemoteByMic.Name = "checkBoxRemoteByMic";
-            this.checkBoxRemoteByMic.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxRemoteByMic.Size = new System.Drawing.Size(159, 17);
             this.checkBoxRemoteByMic.TabIndex = 41;
             this.checkBoxRemoteByMic.Text = "Remote ON enabled by MIC";
             this.checkBoxRemoteByMic.UseVisualStyleBackColor = true;
@@ -554,7 +554,7 @@
             this.checkBoxRemoteByA.AutoSize = true;
             this.checkBoxRemoteByA.Location = new System.Drawing.Point(191, 260);
             this.checkBoxRemoteByA.Name = "checkBoxRemoteByA";
-            this.checkBoxRemoteByA.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxRemoteByA.Size = new System.Drawing.Size(170, 17);
             this.checkBoxRemoteByA.TabIndex = 40;
             this.checkBoxRemoteByA.Text = "Remote ON enabled by Line A";
             this.checkBoxRemoteByA.UseVisualStyleBackColor = true;
@@ -565,9 +565,9 @@
             this.checkBoxRemoteByB.AutoSize = true;
             this.checkBoxRemoteByB.Location = new System.Drawing.Point(191, 283);
             this.checkBoxRemoteByB.Name = "checkBoxRemoteByB";
-            this.checkBoxRemoteByB.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxRemoteByB.Size = new System.Drawing.Size(170, 17);
             this.checkBoxRemoteByB.TabIndex = 39;
-            checkBoxRemoteByB.Text = "Remote ON enabled by Line B";
+            this.checkBoxRemoteByB.Text = "Remote ON enabled by Line B";
             this.checkBoxRemoteByB.UseVisualStyleBackColor = true;
             this.checkBoxRemoteByB.Click += new System.EventHandler(this.checkBoxRemoteByB_Click);
             // 
@@ -576,7 +576,7 @@
             this.checkBoxSwitchStart.AutoSize = true;
             this.checkBoxSwitchStart.Location = new System.Drawing.Point(191, 306);
             this.checkBoxSwitchStart.Name = "checkBoxSwitchStart";
-            this.checkBoxSwitchStart.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxSwitchStart.Size = new System.Drawing.Size(83, 17);
             this.checkBoxSwitchStart.TabIndex = 43;
             this.checkBoxSwitchStart.Text = "Switch Start";
             this.checkBoxSwitchStart.UseVisualStyleBackColor = true;
@@ -646,7 +646,7 @@
             this.buttonStopTimer.UseVisualStyleBackColor = true;
             this.buttonStopTimer.Click += new System.EventHandler(this.buttonStopTimer_Click);
             // 
-            // button4
+            // buttonResetTimer
             // 
             this.buttonResetTimer.Location = new System.Drawing.Point(33, 92);
             this.buttonResetTimer.Name = "buttonResetTimer";
@@ -729,7 +729,7 @@
             // 
             // groupBoxModule
             // 
-            this.groupBoxModule.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBoxModule.BackColor = System.Drawing.Color.AliceBlue;
             this.groupBoxModule.Controls.Add(this.checkBoxSwitchStart);
             this.groupBoxModule.Controls.Add(this.checkBoxMicLineB);
             this.groupBoxModule.Controls.Add(this.checkBoxRemoteByMic);
@@ -925,7 +925,7 @@
             this.Controls.Add(this.buttonConnect);
             this.Controls.Add(this.comboBoxComPort);
             this.Name = "Form1";
-            this.Text = "RS232-11012022";
+            this.Text = "RS232-23012022";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBoxMaster.ResumeLayout(false);
