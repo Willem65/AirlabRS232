@@ -477,6 +477,11 @@ namespace AirlabRS232
 
         private bool toggleButton7=false;
 
+        private void comboBoxComPort_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         // Schakel tussen ModuleSetup en MasterSetup de Timer op de Airlab
         private void button7_Click(object sender, EventArgs e)
         {

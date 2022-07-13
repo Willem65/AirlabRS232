@@ -108,6 +108,7 @@
             this.comboBoxComPort.Name = "comboBoxComPort";
             this.comboBoxComPort.Size = new System.Drawing.Size(143, 21);
             this.comboBoxComPort.TabIndex = 0;
+            this.comboBoxComPort.SelectedIndexChanged += new System.EventHandler(this.comboBoxComPort_SelectedIndexChanged);
             // 
             // serialPort1
             // 
