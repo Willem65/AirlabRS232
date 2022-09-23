@@ -48,4 +48,3 @@ C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\AirlabRS232\ob
 C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\AirlabRS232\obj\Debug\AirlabRS232.csproj.CoreCompileInputs.cache
 C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\AirlabRS232\obj\Debug\AirlabRS232.exe
 C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\AirlabRS232\obj\Debug\AirlabRS232.pdb
-C:\Users\willem\Documents\Visual Studio 2017\Projects\AirlabRS232\AirlabRS232\obj\Debug\AirlabRS232.csprojAssemblyReference.cache
